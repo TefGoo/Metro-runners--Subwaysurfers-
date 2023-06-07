@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3134225688243809779
+--- !u!1 &6681486240526909259
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,44 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3134225688243809789}
-  - component: {fileID: 3134225688243809778}
+  - component: {fileID: 6681486240526909257}
+  - component: {fileID: 6681486240526909256}
   m_Layer: 0
-  m_Name: AdsManager
+  m_Name: BannerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3134225688243809789
+--- !u!4 &6681486240526909257
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3134225688243809779}
+  m_GameObject: {fileID: 6681486240526909259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -779.6981, y: -228.77933, z: 8.313282}
+  m_LocalPosition: {x: 1776.8055, y: 60.930134, z: 80.88904}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3134225688243809778
+--- !u!114 &6681486240526909256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3134225688243809779}
+  m_GameObject: {fileID: 6681486240526909259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc6879620f5fade43a6868133a643a16, type: 3}
+  m_Script: {fileID: 11500000, guid: f128d8f301468d244b0f3ed355121eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _androidGameId: 5171081
-  _iOSGameId: 5171080
-  _testMode: 0
-  rewardedAdsButtonDog: {fileID: 0}
-  rewardedAdsButtonCow: {fileID: 0}
+  _bannerPosition: 4
+  _androidAdUnitId: 5171081
+  _iOSAdUnitId: 5171080
